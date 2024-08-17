@@ -6,6 +6,10 @@
 !*.py
 !*.md
 !*.txt
+!*.json
+!*.qss
+!*.spec
+!*.ini
 # etc...
 
 # ...even if they are in subdirectories
@@ -15,5 +19,24 @@
 !*/filename.ext
 
 venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# PyInstaller 생성 파일
+*.manifest
+*.spec
+
+# PyInstaller 런타임 파일
+*.pyo
 *.pyc
 __pycache__/
+
+# PyInstaller 로그 파일
+*.log

@@ -1,0 +1,71 @@
+/* 전역 기본 폰트 설정 */
+* {
+    font-family: "맑은 고딕";
+    font-size: 10pt;
+}
+
+
+/* 타이틀 스타일 */
+#titleLabel {
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+/* 인용구 박스 스타일 */
+#quoteBox {
+    font-size: 10pt;
+    color: gray;
+}
+
+/* 상단 입력 필드 스타일 */
+QLineEdit {
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    margin-right: 10px; /* 필드 사이의 간격 */
+}
+
+/* 버튼 스타일 */
+QPushButton {
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px; /* 버튼 사이의 간격 */
+}
+
+QPushButton:hover {
+    background-color: #0056b3;
+}
+
+/* 테이블 헤더 스타일 */
+QHeaderView::section {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* 테이블 내용 스타일 */
+QTableWidget {
+    gridline-color: #DADADA;
+    font-size: 18px;
+    margin-top: 30px; /* 테이블과 버튼 사이의 간격 */
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+/* 기본적으로 데이터는 오른쪽 정렬 */
+QTableWidget::item {
+    padding: 5px;
+    text-align: right; 
+}
+
+/* 틱커명과 종목명은 왼쪽 정렬 */
+QTableWidget::item:selected {
+    text-align: left;
+}

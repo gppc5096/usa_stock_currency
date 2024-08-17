@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.py
+!*.md
+!*.txt
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+
+# if the files to be tracked are in subdirectories
+!*/filename.ext
+
+venv/
+*.pyc
+__pycache__/
